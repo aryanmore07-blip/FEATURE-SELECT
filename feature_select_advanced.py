@@ -1,10 +1,5 @@
 
-import streamlit as st
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-from sklearn.feature_selection import mutual_info_classif, chi2, f_classif, RFE
-from sklearn.linear_model import LogisticRegression
+
 
 st.set_page_config(page_title="Feature SelectX", layout="wide")
 st.title("🎯 Feature SelectX – Smart Feature Selection Tool")
